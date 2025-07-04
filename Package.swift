@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SygicAuth",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/lib/auth/sygicauth-ios/2.0.0/sygicauth-ios-2.0.0.zip",
-            checksum: "f08302a2fc5ef2ccf150b5ba09bca4a42212844f249b34806ed0f7b645921fc6"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/lib/auth/sygicauth-ios/3.0.0/sygicauth-ios-3.0.0.zip",
+            checksum: ""
         )
     ]
 )
